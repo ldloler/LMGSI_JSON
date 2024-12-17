@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Productes de la botiga online -->
+    <!-- Cada producte te els seguents atributs: id, nom, descripció, preu, categoria, disponibilitat i imatge -->
+<productes>
+    <!-- Producte 1 -->
+    <entrepa categoria="entrepans">
+        <!-- Attributs -->
+        <id>ent-01</id>
+        <nom>Entrepa-de-baco-i-formatge</nom>
+        <desc>Es-un-entrepa-de-baco-fregit-i-formatge-fos</desc>
+        <preu moneda="€">4,55</preu>
+        <disponibilitat>enEstoc</disponibilitat>
+        <img>https://img-global.cpcdn.com/recipes/7e0661a06b66e147/1200x630cq70/photo.jpg</img>
+        <!-- Apuntem quins alergens te l'entrepa -->
+        <alergens>
+            <gluten>si</gluten>
+            <lactosa>si</lactosa>
+            <ou>no</ou>
+        </alergens>
+    </entrepa>
+
+    <!-- Producte 2 -->
+    <entrepa categoria="entrepans">
+        <!-- Attributs -->
+        <id>ent-02</id>
+        <nom>Entrepa-de-truita-de-patates</nom>
+        <desc>Es-un-entrepa-de-truita-de-patates-de-la-casa</desc>
+        <preu moneda="€">3,25</preu>
+        <disponibilitat>esgotat</disponibilitat>
+        <img>https://www.take-away.es/carta/bocadillo_tortilla.jpg</img>
+        <!-- Apuntem quins alergens te l'entrepa -->
+        <alergens>
+            <gluten>si</gluten>
+            <lactosa>no</lactosa>
+            <ou>si</ou>
+        </alergens>
+    </entrepa>
+</productes>
